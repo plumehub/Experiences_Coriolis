@@ -1,2 +1,2 @@
-# Experience_Coriolis
-Experience convection on the Coriolis platform 
+# Experiences_Coriolis
+Experiences convection on the Coriolis platform 
