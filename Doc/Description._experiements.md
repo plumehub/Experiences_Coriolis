@@ -32,7 +32,12 @@ Several ‘views’ are available to filter the columns. Simply click on these b
 
 ### Views: 
 - all: displays all experiments 
-
+- Description: Gathers all the information on the physics of experiments. Preferred view for reproducing experiments numerically or for data analysis.
+- UVMAT- PCO: Follow up the processing of PIV images acquired with PCO cameras (processing on [UVMAT software](https://servforge.legi.grenoble-inp.fr/projects/soft-uvmat)))
+- UVMAT- JAI: Same but for the JAI camera
+- Stress : filter only the experiment with stress (KP and KP + heating)
+- Rotation : idem for rotation 
+- Startification : Idem 
 
 ### Caracteristiques : 
 
@@ -53,11 +58,11 @@ Several ‘views’ are available to filter the columns. Simply click on these b
     - *1meter*: The height of the water column was $1$m (all the other had $0.5$ m )
     
 - **Observed Field**: 
-    - *Vertical*: The data concerns the vertical plane (width $=30$cm; height $=26$cm) perpendicular to the radius (at $4.5$ m )
+    - *Vertical*: The data concerns the vertical plane (width $=30$cm; height $=26$cm)/(width $=50$cm; height $=45$cm for The experiment with 1m ) perpendicular to the radius (at $4.5$ m )
     - *Horizontal*: The horizontal plan is a square (width $=3$m; lenght $=4$m) at $10$ cm above the heat plate  
     - *Volume 3D*: Data is aaqcuires on the horizontal plane on several height (in range of approx $2$cm - $40$ cm) giving a 3D volume
-
-
+- **Frequence acuisition PIV** : 
+    - Frequency between two images. (note the frequency of the processed data is the the half (if PIV between successives images ))
 - ** Heat time**: total time where the heating system were ON (long series are recorded with vertical temperature profilers and fixed thermistances)
     - Note this given time is approximate but can be found precisely on the *LABVIEW* data 
 - ** Heating Time at PIV aquisition**: Time of heating before the start of PIV acquisition
