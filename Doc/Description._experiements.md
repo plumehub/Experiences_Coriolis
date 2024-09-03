@@ -62,7 +62,7 @@ Several ‘views’ are available to filter the columns. Simply click on these b
     - *Horizontal*: The horizontal plan is a square (width $=3$m; lenght $=4$m) at $10$ cm above the heat plate  
     - *Volume 3D*: Data is aaqcuires on the horizontal plane on several height (in range of approx $2$cm - $40$ cm) giving a 3D volume
 - **Frequence acuisition PIV** : 
-    - Frequency between two images. (note the frequency of the processed data is the the half (if PIV between successives images ))
+    - Frequency between two images.
 - ** Heat time**: total time where the heating system were ON (long series are recorded with vertical temperature profilers and fixed thermistances)
     - Note this given time is approximate but can be found precisely on the *LABVIEW* data 
 - ** Heating Time at PIV aquisition**: Time of heating before the start of PIV acquisition
